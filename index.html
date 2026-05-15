@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhagawath Velvadapu </title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f5;
+            color: #111;
+            line-height: 1.8;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2563eb;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* NAVBAR */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 0;
+            border-bottom: 1px solid #d4d4d4;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 300;
+        }
+
+        .nav-links a {
+            margin-left: 35px;
+            color: black;
+            font-size: 1.1rem;
+        }
+
+        .nav-links a:hover {
+            color: #2563eb;
+        }
+
+        /* MAIN CONTENT */
+
+        main {
+            padding: 50px 0;
+        }
+
+        .intro {
+            font-size: 1.25rem;
+            margin-bottom: 40px;
+        }
+
+        .intro p {
+            margin-bottom: 35px;
+        }
+
+        /* SOCIALS */
+
+        .socials {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            margin: 50px 0;
+        }
+
+        .socials a {
+            font-size: 2rem;
+            color: black;
+            transition: 0.2s;
+        }
+
+        .socials a:hover {
+            transform: scale(1.1);
+            color: #2563eb;
+        }
+
+        /* UPDATE */
+
+        .update {
+            border-top: 1px solid #bdbdbd;
+            padding-top: 20px;
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+
+        /* FOOTER */
+
+        footer {
+            margin-top: 120px;
+            padding: 40px 0;
+            background-color: #eeeeee;
+        }
+
+        footer h2 {
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        footer p {
+            color: #2563eb;
+            font-size: 1.1rem;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 768px) {
+
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+            }
+
+            .nav-links a {
+                margin-left: 0;
+                margin-right: 20px;
+            }
+
+            .intro {
+                font-size: 1.05rem;
+            }
+
+            .logo {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- NAVBAR -->
+
+        <nav>
+            <div class="logo">Bhagawath Velvadapu</div>
+
+            <div class="nav-links">
+                <a href="#">Research</a>
+                <a href="#">Projects</a>
+                <a href="#">CV</a>
+            </div>
+        </nav>
+
+        <!-- MAIN -->
+
+        <main>
+
+            <div class="intro">
+
+                <p>
+                    Yello! This is my personal website. I am an undergraduate student at IISER Pune
+                    interested majorly in physics but also dabble in Ultimte Frisbee. 
+                </p>
+
+                <p>
+                    My current interests include light matter interactions with a keen interest in magnetometry for applications in geomagnetic sensing, NMR Spectroscopy etc. and quantum sensing for qubit initialisation. 
+                </p>
+
+                <p>
+                    Explore the website to learn more about my
+                    projects, research interests, and academic work.
+                </p>
+
+                <p>
+                    This website is under construction as I continue
+                    compiling my academic projects and research portfolio.
+                </p>
+
+            </div>
+
+            <!-- SOCIAL LINKS -->
+
+            <div class="socials">
+
+                <a href="https://www.linkedin.com/in/bhagawath-velvadapu-417351290/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/Bhagawath-Velvadapu">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+            </div>
+
+            <!-- UPDATE -->
+
+            <div class="update">
+                Last updated: May 2026
+            </div>
+
+        </main>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="container">
+
+            <h2>Bhagawath Velvadapu</h2>
+
+            <p>
+                bhagawath.velvadapu@students.iiserpune.ac.in
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
